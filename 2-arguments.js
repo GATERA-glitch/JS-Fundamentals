@@ -1,10 +1,11 @@
-const args = process.argv.slice(2);
-if (args.length == 0);{
-    console.logo("no arguments")
-}
-else if (args.length == 1);{
-    console.logo("arguments found");
-}
-else {
-    console.log("arguments found");
+// 2-arguments.js
+
+const args = process.argv.slice(2); // Get arguments passed to the script
+
+if (args.length === 0) {
+  console.log("No argument");
+} else if (args.length === 1) {
+  console.log("Argument found");
+} else {
+  console.log("Arguments found");
 }
